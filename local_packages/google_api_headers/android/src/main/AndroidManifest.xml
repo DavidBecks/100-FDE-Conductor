@@ -1,0 +1,6 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    android:namespace="io.github.zeshuaro.google_api_headers">
+    <application>
+        <!-- ... -->
+    </application>
+</manifest>
