@@ -101,7 +101,7 @@ class _MyHomePageState extends State<Servidor> {
     String url = 'https://maps.googleapis.com/maps/api/directions/json?'
         'origin=${origen.latitude},${origen.longitude}&'
         'destination=${destino.latitude},${destino.longitude}&'
-        'key=AIzaSyDZghHfi0xyU2rNHUYvMWmXDKXxxaTB-dM';
+        'key=API_KEY';
 
     var response = await http.get(Uri.parse(url));
 
