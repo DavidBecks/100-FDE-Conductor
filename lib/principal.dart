@@ -97,7 +97,7 @@ class _MapScreenState extends State<MapScreen> {
 
   Future<String> getOrigen(double latitud, double longitud) async {
     var formattedAddress = 'nada';
-    final apiKey = 'AIzaSyDZghHfi0xyU2rNHUYvMWmXDKXxxaTB-dM';
+    final apiKey = 'API_KEY';
     final url =
         'https://maps.googleapis.com/maps/api/geocode/json?latlng=$latitud,$longitud&key=$apiKey';
 
@@ -416,7 +416,7 @@ class _MapScreenState extends State<MapScreen> {
 
   Future<void> _resultadoDestino(String suggestion) async {
     String query = suggestion;
-    String apiKey = 'AIzaSyDZghHfi0xyU2rNHUYvMWmXDKXxxaTB-dM';
+    String apiKey = 'API_KEY';
 
     String url =
         'https://maps.googleapis.com/maps/api/geocode/json?address=$query&components=country:MX&key=$apiKey';
